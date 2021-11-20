@@ -22,7 +22,7 @@ const NavbarV2 = ({ pageName }: { pageName: string; }) => {
                         onClick={() => dispatch(setSidebarVisibility(!sidebar.visible))} />
                     <span style={{ fontSize: 18 }}>{pageName}</span>
                 </FlexRow>
-                <h3 style={{ fontSize: '1.5em', letterSpacing: 1.5 }}>WORKHOUR</h3>
+                <h3 style={{ fontSize: '1.5em', letterSpacing: 1.5 }}>APPNAME</h3>
                 <FlexRow style={{ alignItems: 'center' }}>
 
                     <HorizontalGap gap={15} />

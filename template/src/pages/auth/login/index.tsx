@@ -74,7 +74,7 @@ const LoginPage = () => {
 
     return (
         <AuthContainer variants={authVariant} initial="hidden" animate="visible">
-            <LogoHeading>WorkHour</LogoHeading>
+            <LogoHeading>AppName</LogoHeading>
             <AuthBox>
                 <h2 style={{ margin: 'auto' }}>Welcome</h2>
                 <VerticalGap gap={15} />

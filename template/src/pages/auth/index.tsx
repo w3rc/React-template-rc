@@ -39,7 +39,7 @@ const AuthPage = () => {
 
     return (
         <AuthContainer variants={authInitVariant} initial="hidden" animate="visible">
-            <LogoHeading>WorkHour</LogoHeading>
+            <LogoHeading>AppName</LogoHeading>
             <AuthBox>
                 {
                     loading ?

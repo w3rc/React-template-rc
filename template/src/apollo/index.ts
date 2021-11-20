@@ -12,8 +12,8 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 	}
 });
 
-const PROD_URL = 'https://workhour-api.herokuapp.com';
-const LOCAL_URL = 'http://localhost:4000';
+const PROD_URL = 'The production URL';
+const LOCAL_URL = 'The development URL';
 
 const API_URL = `${LOCAL_URL}/graphql`;
 
