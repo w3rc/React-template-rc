@@ -72,7 +72,7 @@ const RegisterPageConfirmation = () => {
 
     return (
         <AuthContainer variants={authVariant} initial="hidden" animate="visible">
-            <LogoHeading>Entrawpy</LogoHeading>
+            <LogoHeading>App</LogoHeading>
             <AuthBox style={{ padding: '25px 40px' }}>
                 <h3 style={{ maxWidth: 350, textAlign: 'justify' }}>You must agree to the terms and conditions in order to use our sevices</h3>
                 <ul>

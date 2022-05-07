@@ -61,7 +61,7 @@ const RegisterPage = () => {
 
     return (
         <AuthContainer variants={authVariant} initial="hidden" animate="visible">
-            <LogoHeading>Entrawpy</LogoHeading>
+            <LogoHeading>App</LogoHeading>
             <AuthBox style={{ padding: '25px 40px' }}>
                 <h3 style={{ margin: 'auto' }}>Create Account</h3>
                 <VerticalGap gap={10} />

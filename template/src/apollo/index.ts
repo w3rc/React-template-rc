@@ -21,17 +21,17 @@ const httpLink = new HttpLink({
 	uri: API_URL
 });
 
-// const authLink = new ApolloLink((operation, forward) => {
-// 	operation.setContext({
-// 		headers: {
-// 			// 'api-key': process.env.GQL_API_KEY
-// 		}
-// 	});
+const authLink = new ApolloLink((operation, forward) => {
+	operation.setContext({
+		headers: {
+			'api-key': process.env.GQL_API_KEY
+		}
+	});
 
-// 	return forward(operation);
-// });
+	return forward(operation);
+});
 
-const link = from([errorLink, httpLink]);
+const link = from([errorLink, httpLink, authLink]);
 
 const client = new ApolloClient({
 	link,
