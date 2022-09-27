@@ -1,4 +1,4 @@
-# Customized React Template wit Typescript:
+# Customized React Template with Typescript:
 ## Animation - Framer Motion
 ## Apollo GraphQL Setup
 ## State management - Redux Toolkit
